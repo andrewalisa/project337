@@ -1,0 +1,35 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dean\Desktop\Github Repos\project337\Build001_Data\Managed\System.dll (this message is harmless)
+desktop: 3620x2036 59Hz; virtual: 5540x2036 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.295887 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1d0 -> priority: 1 
+  Thread -> id: 2be8 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.380299 ms
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 471.
+Total: 0.453696 ms (FindLiveObjects: 0.044373 ms CreateObjectMapping: 0.031091 ms MarkObjects: 0.198624 ms  DeleteObjects: 0.179003 ms)
+
