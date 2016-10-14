@@ -11,17 +11,19 @@ public class Seeker : MonoBehaviour {
 	private float distanceToTarget;
 
 	void Start() {
+		Debug.Log ("Request Path");
 		PathRequestManager.RequestPath (transform.position, target.position, OnPathFound);
-		
+
 	}
 	void Update() {
-		distanceToTarget = Vector3.Distance (transform.position, target.position);
-		if (distanceToTarget > 5.0F) {
-			PathRequestManager.RequestPath (transform.position, target.position, OnPathFound);
-		}
+		//distanceToTarget = Vector3.Distance (transform.position, target.position);
+		//if (distanceToTarget > 5.0F) {
+		//	PathRequestManager.RequestPath (transform.position, target.position, OnPathFound);
+		//}
 	}
 	public void OnPathFound(Vector3[] newPath, bool pathSuccessful) {
 		if (pathSuccessful) {
+			Debug.Log ("Found Path");
 			path = newPath;
 			StopCoroutine ("FollowPath");
 			StartCoroutine ("FollowPath");
@@ -29,7 +31,6 @@ public class Seeker : MonoBehaviour {
 	}
 
 	private IEnumerator FollowPath() {
-		Debug.Log (path [0]);
 		if (path [0] != null) {
 			Vector3 currentWaypoint = path [0];
 		
